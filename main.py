@@ -8,6 +8,7 @@ from artistic_letters import * #artistic_letter.py
 frequency = 2500  # Set Frequency To 2500 Hertz
 duration = 500  # Set Duration To 1000 ms == 1 second
 arduino_port = 'COM10' #connect to your aduino
+#the port can be any number, check it in your aduino IDE
 baud_rate = 9600 
 
 ser = serial.Serial(arduino_port, baud_rate, timeout=1)
