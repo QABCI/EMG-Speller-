@@ -25,7 +25,7 @@ def main():
 
     # os.system("cls") #clean debug output
     while True:
-        for letter in "ABCDEFGHIJ":  # Loop through letters for output
+        for letter in "ABCDEFGHIJ*":  # Loop through letters for output
 
             print_artistic_letter(letter)  # Output Letters
 

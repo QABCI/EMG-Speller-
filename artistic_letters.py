@@ -182,6 +182,13 @@ A          A
    Z
  ZZZZZZ
 """,
+    '*': r"""
+ *    *
+   * *
+ * *** *
+   * *
+ *    *
+""",
 }
 
 def print_artistic_letter(letter):#output the Letter

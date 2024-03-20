@@ -16,6 +16,9 @@ void setup() {
 void loop() {                           // Recive Data
   if (Serial.available() > 0) { 
     char incomingChar = Serial.read();  //Recive letters
+    if (incomingChar == '*'){
+        lcd.print("                ");  //Clear screen when recive '*'
+    }
     Serial.print(incomingChar);
     lcd.print(incomingChar);            // Display the incoming character
 
