@@ -11,7 +11,7 @@ arduino_port = "COM10"  # connect to your aduino
 # the port can be any number, check it in your aduino IDE
 baud_rate = 9600
 
-ser = serial.Serial(arduino_port, baud_rate, timeout=1)
+ser = serial.Serial(arduino_port, baud_rate, timeout=1) #connect to aduino
 
 word = []
 
@@ -52,4 +52,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    main() # run
