@@ -1,4 +1,4 @@
-![flowchart](/assets/img/philly-magic-garden.jpg "flowChart")
+![flowchart](https://github.com/QABCI/EMG-Speller-/blob/main/EMG%20Speller%20Diagram.jpg?raw=true "flowChart")
 # Ultimate Invincible Super Universe First EEG Typewriter
 
 This project aims to create a system that allows users to type using EEG data. We’ll use Python to acquire real-time muscle EEG data via the Lab Streaming Layer (LSL) and then display the selected characters on an Arduino LCD screen.
