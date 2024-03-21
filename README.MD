@@ -9,12 +9,23 @@ This project aims to create a system that allows users to type using EEG data. W
 | :--------  | :-----  | :----:  |
 | BCI | data collection|[openBCI](openBCI.com)|
 
-Python: `pip install blablablabla`
+Python: `pip install pylsl`
+Python: `pip install Serial`
 
 ### Algorithm implementation (flowchart)
 
 ````
-print("hello world")
+# main python code
+valuelist = []  # Obtaining EEG data
+while len(valuelist) < 100:
+    chunk, timestamps = inlet.pull_chunk()
+    if timestamps:
+        valuelist.append(chunk[0][1])
+
+if (
+    sum(i >= 0.9 for i in valuelist) >= 20
+):  # Determine whether to select the current letter just now based on the threshold value
+    ser.write(letter.encode())  # output to aduino
 ````
 
 ```mermaid
@@ -26,5 +37,5 @@ PT --> |Serial Port| AB[Arduino Board] -->AL[Arduino LCD] --> C --> B
 
 ### Effect demonstration
 
-[video](https://www.bilibili.com)
+[video](https://b23.tv/h7tQ6Z3)
 picture here
