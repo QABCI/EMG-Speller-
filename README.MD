@@ -5,9 +5,11 @@ This project aims to create a system that allows users to type using EEG data. W
 
 ### Requirements
 
-| name        | function |  other  |
+| name        | function |  website  |
 | :--------  | :-----  | :----:  |
-| BCI | data collection|[openBCI](openBCI.com)|
+| Cyton board | data conversion|[openBCI](https://docs.openbci.com/GettingStarted/Boards/CytonGS/)|
+| Python | data processing|[Python](https://www.python.org/downloads/)|
+| Ear clip electrodes and wires | data collection|[openBCI](https://docs.openbci.com/GettingStarted/Boards/CytonGS/)|
 
 Python: `pip install pylsl`
 Python: `pip install pyserial`
