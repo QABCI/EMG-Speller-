@@ -18,16 +18,10 @@ print("hello world")
 
 ```mermaid
 graph TD;
-  Python-->screen
-  Python-->sound
-  sound-->EEG
-  screen-->EEG
-  EEG-->BCI;
-  BCI-->LSL;
-  LSL-->Python;
-  Python-->aduino;
-  aduino-->LCD
+B[Brain] --> |Electric Signals| E(EEG Sensor) --> OB(Open BCI Cyton Board) --> |BlueTooth|D(OpenBCI data aquisition software) --> L(LSL data stream) --> PT{Python Terminal}-->Ds((Display Letter)) --> C(Eyes)
+PT --> |Serial Port| AB[Arduino Board] -->AL[Arduino LCD] --> C --> B
 ```
+
 
 ### Effect demonstration
 
