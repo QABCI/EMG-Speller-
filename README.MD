@@ -10,7 +10,7 @@ This project aims to create a system that allows users to type using EEG data. W
 | BCI | data collection|[openBCI](openBCI.com)|
 
 Python: `pip install pylsl`
-Python: `pip install Serial`
+Python: `pip install pyserial`
 
 ### Algorithm implementation (flowchart)
 
