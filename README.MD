@@ -40,6 +40,5 @@ PT --> |Serial Port| AB[Arduino Board] -->AL[Arduino LCD] --> C --> B
 ### Effect demonstration
 
 [video](https://b23.tv/h7tQ6Z3)
-<iframe src="https://baidu.com" width="700px" height="500px" frameborder="0" scrolling="no"> </iframe>
 
 picture here
