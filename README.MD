@@ -1,7 +1,7 @@
 ![flowchart](https://github.com/QABCI/EMG-Speller-/blob/main/EMG%20Speller%20Diagram.jpg?raw=true "flowChart")
 # Ultimate Invincible Super Universe First EEG Typewriter
 
-This project aims to create a system that allows users to type using EMG (muscle movement) data. The 26 alphabets will show up in sequencial order with a small delay in between letters, and users can select the letter by eliciating any muscle movement such as clenching the teech. We uses OpenBCI Cyton board to collect the data, then streams the data into Python via Lab Streaming Layer (LSL) for processing and classification. Finally, the selected character is sent to Arduino via serial port and displayed on the LCD screen.  
+This project aims to create a system that allows users to type using EMG (muscle movement) data. The 26 alphabets will show up in sequential order with a small delay in between letters, and users can select the letter by eliciating any muscle movement such as clenching the teech. We uses OpenBCI Cyton board to collect the data, then streams the data into Python via Lab Streaming Layer (LSL) for processing and classification. Finally, the selected character is sent to Arduino via serial port and displayed on the LCD screen.  
 
 ### Requirements
 
